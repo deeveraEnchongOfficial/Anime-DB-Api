@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
 * {
   margin: 0;
@@ -57,20 +55,7 @@
   cursor: pointer;
 }
 
-/* .search button {
-  padding: 20px 40px;
-  border-radius: 0.5rem;
-  margin-left: 15px;
-  color: #a1a1a1;
-  font-family: var(--font-raleway);
-  font-weight: 900;
-  letter-spacing: 0.75px;
-  font-size: 1.25rem;
-  cursor: pointer;
-  background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-} */
+
 
 .empty {
   width: 100%;
@@ -120,10 +105,7 @@
   color: #f9d3b4;
 }
 
-/* .movie:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-  transform: scale(1.05, 1.05);
-} */
+
 
 .movie div:nth-of-type(2) {
   width: 100%;
@@ -161,18 +143,7 @@
   color: #f9d3b4;
 }
 
-/* .movie:hover div:nth-of-type(2) {
-  height: 100%;
-  opacity: 0.3;
-}
 
-.movie:hover div:nth-of-type(3) {
-  background-color: transparent;
-}
-
-.movie:hover div:nth-of-type(1) {
-  opacity: 1;
-} */
 
 @media screen and (max-width: 600px) {
   .app {
