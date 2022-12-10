@@ -16,5 +16,4 @@ const MovieCard = ({ anime: { key, image, title, type, link, status } }) => {
     </div>
   );
 }
-
 export default MovieCard;
