@@ -14,6 +14,7 @@ const App = () => {
   },[endPoint])
 
   const fetchMe = () => {
+
   const options = {
     method: 'GET',
     headers: {
@@ -21,6 +22,7 @@ const App = () => {
       'X-RapidAPI-Host': 'anime-db.p.rapidapi.com'
     }
   };
+
   fetch(`https://anime-db.p.rapidapi.com/anime?page=1&size=10&search=+${endPoint}`, options)
     .then(response => {
       return response.json();
@@ -29,13 +31,16 @@ const App = () => {
       setContainer(data.data)
     })
     .catch(err => console.error(err));
+
   }
     const onChangeHandler = (e) => {
       setEndPoint(e.target.value)
     }
+
     const onSubmitHandler = (e) => {
       e.preventDefault()
     }
+    
   return (
     <div className="app">
       <h1>Anime DB api</h1>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const MovieCard = ({ anime: { key, image, title, type, link, status } }) => {
+  
   return (
     <div className="movie" key={key}>
       <div>
@@ -16,4 +17,5 @@ const MovieCard = ({ anime: { key, image, title, type, link, status } }) => {
     </div>
   );
 }
+
 export default MovieCard;
